@@ -1,6 +1,6 @@
 ## Synopsis
 
-Two scripts. One captures public traffic from Triton Digital, and fires off an AWS SNS message. The other listens for this SNS message, and adds the song to a Spotify playlist. I have this running as two AWS Lambda services.
+Three scripts. One captures your Spotify oauth token. One captures public traffic from Triton Digital, and fires off an AWS SNS message. The other listens for this SNS message, and adds the song to a Spotify playlist. I have this running as two AWS Lambda services.
 
 ## Motivation
 
